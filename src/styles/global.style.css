@@ -1,8 +1,13 @@
+/* Font-family setting */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* default reset css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     vertical-align: baseline;
+	font-family: "Noto Sans KR", "돋움", sans-serif;
 }
 
 /* HTML5 display-role reset for older browsers */
