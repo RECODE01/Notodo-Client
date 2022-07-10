@@ -20,10 +20,74 @@
         </header>
         <main class="contents">
             <section class="user-info">
-                <h2>유저 정보가 들어가는 영역</h2>
+                <figure class="user-info__img">
+                    <div class="user-info__img__no-image"></div>
+                </figure>
+                <div class="user-info__text">
+                    <h2 class="user-name">
+                        노투두
+                    </h2>
+                    <p class="user-date">
+                        가입일: <span class="created-date">2022.06.12</span>
+                    </p>
+                </div>
+                <div class="user-info__more">
+                    <button class="more-btn">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+            </section>
+            <section class="progress">
+                <h2 class="hidden-heading">
+                    챌린지 달성률
+                </h2>
+                <div class="progress__bar">
+                    <progress value="0.6"></progress>
+                </div>
+                <div class="progress__text">
+                    <p class="progress__text__archievement">
+                        달성률 <span class="archievement-rate">60</span>% <em>12 챌린지 완료</em>
+                    </p>
+                    <button class="progress__text__btn">
+                        자세히 보기
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
             </section>
             <section class="challenge-list">
-                <h1>챌린지 목록이 들어가는 영역</h1>
+                <h2 class="challenge-list__title">
+                    챌린지 신청 현황
+                </h2>
+                <div class="challenge-list__cards">
+                    <article class="challenge-list__cards__item">
+                        <figure class="challenge-img">
+
+                        </figure>
+                        <div class="challenge-tit">
+                            <h3 class="challenge-tit__name">
+                                자전거로 출근
+                            </h3>
+                            <p class="challenge-tit__master">
+                                마스터: <span class="master-name">김땡땡</span>
+                            </p>
+                        </div>
+                        <div class="challenge-status">
+                            <div class="challenge-status__date">
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="start-date">
+                                    6.01
+                                </span>
+                                &nbsp;~&nbsp;
+                                <span class="end-date">
+                                    6.15
+                                </span>
+                            </div>
+                            <div class="challenge-status__label">
+                                신청 중
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </section>
         </main>
         <nav class="nav">
